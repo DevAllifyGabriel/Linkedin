@@ -1,0 +1,985 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    overflow-x: hidden;
+}
+.função {
+    background: #181c20;
+    position: fixed;
+}
+#soon_menu_top {
+    background: url(img/ezxata2.jpg);
+    width: 100%;
+    height: 630px;
+}
+#soon {
+   width: 100%;
+   position: fixed;
+   top: 0;
+   z-index: 999;
+ 
+}
+
+
+
+
+#soon img {
+    width: 70px;
+    margin-left: 40px;
+    margin-top: 20px;
+  
+}
+.primary_menu  {
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+  
+}
+
+.primary_menu a {
+    margin-left: 40px;
+    text-decoration: none;
+    position: relative;
+    opacity: .8 !important;
+    font-size: 14px;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif;
+    color: #FFF;
+   
+}
+.only {
+    padding: 9px 27px 9px 27px;
+    border: 1px solid hsla(0,0%,100%,.3);
+    border-radius: 20px;
+    opacity: .8 !important;
+    
+}
+.text_menus {
+    margin-top: 70px;
+    text-align: center;
+}
+.text_menus h1 {
+    font-size: 3.2rem;
+    line-height: 3rem;
+    font-weight: 700;
+    max-width: 870;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif;
+    color: #FFF;
+}
+.text_menus p {
+    margin-top: 40px;
+    opacity: .8;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif;
+    color: #FFFFFF;
+}
+.primary_menus {
+    margin-top: 100px;
+    margin-left: 70px;
+   
+}
+.primary_menus a {
+    margin-right: 120px;
+    padding: 20px 35px 20px 35px;
+    border: 3px solid hsla(0,0%,100%,.8);
+    border-radius: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 550;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif;
+    font-size: 14.4px;
+    transition: 2s;
+}
+.primary_menus a:hover {
+    transition: 2s;
+    border-radius: 45px;
+    border: 1px solid hsla(0,0%,100%,.8);
+}
+.Con {
+    margin-top: 200px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    border-radius: 4px;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif;
+}
+ 
+#half_texts {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.texts_princp {
+    width: 1100px;
+    height: 330px;
+   
+}
+.texts_princp img {
+    width: 500px;
+}
+.hehe {
+    margin-top: 40px;
+}
+.texts_princp h3 {
+    float: right;
+    font-size: 1.9rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: #202020;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif;
+    margin-right: 100px;
+}
+.texts_princp p  {
+    float: right;
+    margin-top: -200px;
+    font-size: 14px;
+    color: #6d6d6d;
+    line-height: 24px;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif;    
+    margin-right: 65px;
+}
+.texts_princp a {
+    float: right;
+    margin-top: -60px;
+    margin-right: 332px;
+    border-radius: 5px;
+    padding: 15px  65px 15px 65px;
+    border: 1px solid #2c7dfa;
+    background: #2c7dfa;
+    color: #f5f5f5;
+    font-size: 14px;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif;   
+    text-decoration: none;
+}
+#secondary_text {
+    margin-top: 200px;
+}
+.secondary {
+    margin-left: -100px;
+}
+
+.secondary h2 {
+    font-size: 34px;
+    color: #282828;
+    line-height: 50px;
+    font-family: Helvetica;
+    font-weight: 400;
+   text-align: center;
+}
+#training_image {
+    margin-top: 60px;
+    margin-left: -70px;
+}
+
+.main_photo h4 {
+   float: right;
+}
+.main_photo h4 {
+    margin-right: 484px;
+    font-size: 1.0rem;
+    color: #282828;
+    padding-bottom: .7rem;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif; 
+    font-weight: 400;
+}
+.main_photo p {
+    margin-top: -370px;
+    margin-right: 132px;
+    float: right;
+    font-size: 14px;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif; 
+    color: #8c8c8c;
+    line-height: 20px;
+
+}
+
+
+
+
+.main_photo_secundary h4 {
+    float: right;
+}
+.main_photo_secundary h4 {
+    margin-right: 484px;
+    font-size: 1.0rem;
+    color: #282828;
+    padding-bottom: .7rem;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif; 
+    font-weight: 400;
+    margin-top: -270px;
+ }
+.main_photo_secundary p {
+    margin-right: 125px;
+    float: right;
+    font-size: 14px;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif; 
+    color: #8c8c8c;
+    line-height: 20px;
+    margin-top: -230px;
+   
+ 
+}
+
+
+.main_photo_try h4 {
+    float: right;
+}
+.main_photo_try h4 {
+    margin-right: 484px;
+    font-size: 1.0rem;
+    color: #282828;
+    padding-bottom: .7rem;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif; 
+    font-weight: 400;
+    margin-top: -120px;
+ }
+.main_photo_try p {
+    margin-right: 125px;
+    float: right;
+    font-size: 14px;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif; 
+    color: #8c8c8c;
+    line-height: 20px;
+    margin-top: -80px;
+   
+ 
+}
+
+
+
+
+
+
+#black_background {
+    height: 650px;
+    background: #4a4a4a;
+    margin-top: 80px;
+    overflow:hidden ;
+
+}
+.black_text {
+    text-align: left;
+    margin-left: 80px;
+    padding-top: 100px;
+  
+}
+.black_text h2 {
+    color: #fff;
+    font-size: 34px;
+    line-height: 50px;
+    font-family: Helvetica;
+    font-weight: 400;
+    
+}
+
+.black_text p {
+    padding-top: 30px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: Helvetica;
+}
+.black_text a {
+    margin-right: 332px;
+    border-radius: 5px;
+    padding: 15px  65px 15px 65px;
+    border: 1px solid #2c7dfa;
+    background: #2c7dfa;
+    color: #f5f5f5;
+    font-size: 14px;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif;   
+    text-decoration: none;
+}
+
+
+
+.td_figure {
+    perspective: 1800px;
+    margin-top: -300px;
+    margin-left: -20px;
+}
+.td_figure img {
+    transform: rotateX(60deg) rotateY(-20DEG) rotateZ(40deg);
+    margin-left: 955px;
+    width: 250px;
+}
+
+.td_figure img {
+    width: 250px;
+    margin-top: -5px;
+}
+
+
+.primeira {
+    transition: all .2s ease-in-out;
+    perspective: 3d;
+    overflow: hidden;
+}
+.primeira:hover {
+    transform: scale(1.1);
+}
+
+
+.teste {
+    margin-top: -78px;
+    margin-left: -103px;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+}
+
+.teste:hover{
+    transform: scale(1.1);
+}
+
+.teste img {
+    width: 270px;
+   
+}
+
+
+
+.teste_try img {
+    width: 295px;
+}
+.teste_try {
+    margin-left: -260px;
+    margin-top: -120px;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+}
+
+.teste_try:hover{
+    transform: scaleX(1.1);
+}
+
+
+
+
+.teste_for img {
+    width: 325px;
+}
+.teste_for {
+    margin-top: -110px;
+    margin-left: -465px;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+}
+
+.teste_for:hover{
+    transform: scaleX(1.1);
+}
+
+
+
+
+
+.td_fugure_duo {
+    margin-top: -670px;
+    margin-left: 265px;
+   
+}
+
+.on {
+    transition: all .2s ease-in-out; 
+    overflow: hidden;
+}
+.on:hover {
+    transform: scaleX(1.1);
+}
+
+
+.duo {
+    margin-left: -90px;
+    margin-top: -80px;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+}
+.duo img {
+    width: 300px;
+}
+.duo:hover{
+    transform: scaleX(1.1);
+}
+
+
+
+.try {
+    margin-left: -195px;
+    margin-top: -90px;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+}
+.try img {
+    width: 320px;
+}
+.try:hover{
+    transform: scaleX(1.1);
+}
+
+
+.for {
+    margin-left: -400px;
+    margin-top: -150px;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+}
+.for img {
+    width: 360px;
+    height: 500px;
+
+
+}
+.for:hover{
+    transform: scaleX(1.1);
+}
+
+
+.five {
+    margin-top: -680px;
+    margin-left: 40px;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+}
+.five:hover {
+    transform: scaleX(1.1);
+}
+.five img {
+    height: 700px;
+}
+
+
+
+
+
+#texts_below {
+    margin-top: 80px;
+}
+
+
+.below {
+  margin-top: 10px;
+}
+.below h2 {
+    font-size: 34px;
+    color: #282828;
+    line-height: 50px;
+    font-family: Helvetica;
+    font-weight: 400;
+    text-align: center;
+}
+.below img {
+    float: left;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+#text_one  {
+    margin-left: 700px;
+    margin-top: 60px;
+}
+#text_one h4 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #646464;
+    font-family: open_sanslight;
+    font-weight: 400;
+    cursor: pointer;
+}
+#text_one h4:hover {
+    color: #282828;
+}
+#text_one p {
+    font-size: .9rem;
+    line-height: 19px;
+    color: #8c8c8c;
+}
+
+
+#text_second {
+    margin-left: 700px;
+    margin-top: 30px;
+}
+
+#text_second h4 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #646464;
+    font-family: open_sanslight;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+#text_second h4:hover {
+    color: #282828;
+}
+#text_second p {
+    font-size: .9rem;
+    line-height: 19px;
+    color: #8c8c8c;
+}
+
+
+#text_third {
+    margin-left: 700px;
+    margin-top: 30px;
+}
+
+#text_third  h4 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #646464;
+    font-family: open_sanslight;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+#text_third h4:hover {
+    color: #282828;
+}
+#text_third p {
+    font-size: .9rem;
+    line-height: 19px;
+    color: #8c8c8c;
+}
+
+
+#text_room {
+    margin-left: 700px;
+    margin-top: 30px;
+}
+
+#text_room h4 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #8c8c8c;
+    font-family: open_sanslight;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+#text_room h4:hover {
+    color: #282828;
+}
+#text_room p {
+    font-size: .9rem;
+    line-height: 19px;
+    color: #8c8c8c;
+}
+#line {
+    margin-top: 130px;
+    width: 80%;
+    margin-left: 150px;
+    margin-right: 150px;
+    background: #f5f5f5;
+}
+
+
+
+#top_basic {
+    margin-top: 50px;
+    
+}
+#basic_text_in {
+    margin-top: 80px;
+}
+#basic_text_in h2 {
+    font-size: 34px;
+    color: #282828;
+    line-height: 50px;
+    font-family: Helvetica;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+#three-piece_columns_um {
+    width: 25%;
+    height: 470px;
+    border: 1px solid #fff;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+    background: url(img/fundo_um.png);
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+#three-piece_columns_um h4 {
+    margin-top: 300px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #282828;
+    font-family: open_sanslight;
+    font-weight: 400;
+}
+#three-piece_columns_um p {
+    margin-left: 20px;
+    overflow: hidden;
+    color: #8c8c8c;
+    margin-top: 15px;
+    -webkit-line-clamp: 5;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+
+
+#three-piece_columns_dois{
+    width: 25%;
+    height: 470px;
+    border: 1px solid #fff;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+    background: url(img/fundo_dois.jpg);
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+#three-piece_columns_dois h4 {
+    margin-top: 300px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #282828;
+    font-family: open_sanslight;
+    font-weight: 400;
+}
+#three-piece_columns_dois p {
+    margin-left: 20px;
+    overflow: hidden;
+    color: #8c8c8c;
+    margin-top: 15px;
+    -webkit-line-clamp: 5;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+
+
+
+#three-piece_columns_tres {
+    width: 25%;
+    height: 470px;
+    border: 1px solid #fff;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+    background: url(img/fundo_tres.jpg);
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+#three-piece_columns_tres h4 {
+    margin-top: 300px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #282828;
+    font-family: open_sanslight;
+    font-weight: 400;
+}
+#three-piece_columns_tres p {
+    margin-left: 20px;
+    overflow: hidden;
+    color: #8c8c8c;
+    margin-top: 15px;
+    -webkit-line-clamp: 5;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+#cente_piece {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 60px;
+}
+
+#top_basic a {
+    margin-right: 332px;
+    border-radius: 5px;
+    padding: 15px  50px 15px 50px;
+    border: 1px solid #2c7dfa;
+    background: #2c7dfa;
+    color: #f5f5f5;
+    font-size: 14px;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif;   
+    text-decoration: none;
+    margin-left: 560px;
+}
+
+
+
+
+#men {
+    margin-top: 100px;
+    height: 1050px;
+    background: #272b33;
+}
+.center_text {
+    margin-top: 40px;
+}
+
+#center_coluns {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+#columns_five {
+    width: 25%;
+    height: 350px;
+    border: 1px solid #fff;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+    border: 2px solid hsla(0,0%,40%,.35);
+    
+}
+.center_text h2 {
+    font-size: 34px;
+    color: #FFFFFF;
+    line-height: 50px;
+    font-family: Helvetica;
+    font-weight: 400;
+    text-align: center;
+ 
+}
+.img_center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 20px;
+}
+.container {
+   text-align: center;
+}
+.container p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: .3px;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif; 
+}
+.containe_texts_p {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.3px;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif; 
+}
+
+
+
+
+#footer_princ {
+    margin-top: 80px;
+}
+.black_rodaoe {
+    background: #272b33;
+    height: 150px;
+  
+}
+.pric_pe img {
+    margin-bottom: -78px;
+    margin-left: 100px;
+}
+.pric_pe h2 {
+   float: right;
+   margin-top: 60px;
+   margin-right: 380px;
+   font-size: 34px;
+   font-weight: 400;
+   color: #282828;
+   font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif; 
+
+}
+.pric_pe p {
+    float: right;
+    font-size: 14px;
+ 
+}
+.p_unico {
+    margin-top: 10px;
+    margin-right: 198px;
+    color: #a0a0a0;
+}
+.p_primery {
+    margin-top: 10px;
+    margin-right: 318px;
+    color: #a0a0a0;
+}
+.p_secudary {
+    margin-top: 10px;
+    margin-right: 365px;
+    color: #a0a0a0;
+}
+
+
+.limite_um {
+    margin-top:  5px;
+    margin-right: 550px;
+    color: #505050;
+    
+}
+.limite_dois {
+    margin-top: 5px;
+    margin-right: 550px;
+    color: #505050;
+}
+.limite_tres {
+    margin-top: 5px;
+    margin-right: 570px;
+    color: #505050;
+}
+ 
+
+
+.news {
+    width: 700px;
+    float: right;
+    height: 70px;
+    border: 1px solid #FFFFFF;
+    margin-top: -370px;
+    margin-right: 10px;
+    background: #FAFAFA;
+}
+.tasks {
+    width: 700px;
+    float: right;
+    height: 70px;
+    border: 1px solid #FFFFFF;
+    margin-top: -290px;
+    margin-right: 10px;
+    background: #FAFAFA;  
+}
+.use {
+    width: 700px;
+    float: right;
+    height: 70px;
+    border: 1px solid #FFFFFF;
+    margin-top: -210px;
+    margin-right: 10px;
+    background: #FAFAFA;   
+}
+
+
+
+#last_part {
+    height: 500px;
+    background-color: #181c20;
+    position: absolute;
+    width: 100%;
+    margin-top: -20px;
+}
+.footer_menus_princ {
+    margin-left: 90px;
+    width: 100%;
+}
+#line_um {
+    margin-top: 100px;
+    width: 1125px;
+    margin-left: 90px;
+    border: 0.1px solid #646464;
+}
+
+.lenn {
+    width: 1125px;
+    margin-left: 90px;
+    margin-top: 140px;
+    border: 0.1px solid #646464;
+}
+.espaço {
+    margin-top: 90px;
+}
+.footer_menus_princ {
+    width: 100%;
+}
+.footer_menus_princ a {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif; 
+    text-decoration: none;
+    padding-right: 150px;
+}
+.primeiro_a {
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.primeiro_a li {
+    list-style: none;
+    font-size: 14px;
+    color: #7e838e;
+    opacity: 1;
+    padding-top: 10px;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif; 
+}
+.segundo_a {
+    margin-left: 308px;
+    margin-top: -200px;
+    padding-top: 15px;
+}
+.segundo_a li {
+    list-style: none;
+    font-size: 14px;
+    color: #7e838e;
+    opacity: 1;
+    padding-top: 10px;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif; 
+}
+.terceiro_a {
+    margin-left: 515px;
+    margin-top: -130px;
+}
+.terceiro_a li {
+    list-style: none;
+    font-size: 14px;
+    color: #7e838e;
+    opacity: 1;
+    padding-top: 10px;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif; 
+}
+
+.quarto_a {
+    float: right;
+    margin-right: 550px;
+    margin-top: -80px;
+}
+
+.quarto_a li {
+    list-style: none;
+    font-size: 14px;
+    color: #7e838e;
+    opacity: 1;
+    padding-top: 10px;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif;
+}
+
+.quinto_a {
+    float: right;
+    margin-right: 358px;
+    margin-top: -80px;
+}
+.quinto_a li {
+    list-style: none;
+    font-size: 14px;
+    color: #7e838e;
+    opacity: 1;
+    padding-top: 10px;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif;
+}
+.last {
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.last p {
+    color: #BEC1CB;
+    font-size: 12.5px;
+    font-family: Helvetica Neue,Arial,Microsoft YaHei,PingFang SC,Lantinghei SC,HanHei SC,Open Sans,Hiragino Sans GB,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif;
+}
